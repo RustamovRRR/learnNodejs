@@ -11,5 +11,8 @@
     "package"
   ],
   "author": "Rustam Rustamov",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "acoustid": "^1.2.1"
+  }
 }
