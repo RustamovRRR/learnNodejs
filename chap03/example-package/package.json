@@ -13,6 +13,6 @@
   "author": "Rustam Rustamov",
   "license": "ISC",
   "dependencies": {
-    "acoustid": "^1.2.1"
+    "express": "^4.17.3"
   }
 }
