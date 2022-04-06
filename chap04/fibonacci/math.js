@@ -1,5 +1,10 @@
 exports.finbonacci = function (n) {
-  if (n === 0) return 0;
-  if (n === 1 || n === 2) return 1;
-  else return exports.finbonacci(n - 1) + exports.finbonacci(n - 2);
+  var fibos = [];
+  fibos[0] = 0;
+  fibos[1] = 1;
+  fibos[2] = 1;
+  for (let i = 3; i <= n; i++) {
+    fibos[i] = fibos[i - 2] + fibos[i - 1];
+  }
+  return fibos[n];
 };
